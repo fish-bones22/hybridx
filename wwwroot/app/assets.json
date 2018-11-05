@@ -1,0 +1,8 @@
+{
+    "player": {
+        "key": "player",
+        "path": "/assets/sprites/test-sprite-sheet.png",
+        "width": 32,
+        "height": 32
+    }
+}
