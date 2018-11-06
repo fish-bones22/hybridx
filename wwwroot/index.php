@@ -38,6 +38,8 @@
     </script>
     <script src="/app/GamePool/PhaserObject.js"></script>
     <script src="/app/GamePool/Actors/Player.js"></script>
+    <script src="/app/GamePool/Actors/Button.js"></script>
+    <script src="/app/GamePool/Scenes/SceneChooser.js"></script>
     <script src="/app/GamePool/Scenes/DefaultScene.js"></script>
 
     <script src="/app/utilities.js"></script>

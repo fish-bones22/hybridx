@@ -1,4 +1,5 @@
 let defaultScene =  new DefaultScene();
+let sceneChooser =  new SceneChooser();
 
 var config = {
     type: Phaser.AUTO,
@@ -10,7 +11,7 @@ var config = {
             gravity: { y: 0  }
         }
     },
-    scene: defaultScene,
+    scene: sceneChooser,
     backgroundColor: "#551111"
 };
 
