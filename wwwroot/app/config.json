@@ -1,4 +1,5 @@
 {
-    "GLOBAL_WIDTH":"800",
-    "GLOBAL_HEIGHT":"600" 
+    "GLOBAL_WIDTH": 800,
+    "GLOBAL_HEIGHT": 400,
+    "GLOBAL_GRAVITY": 0
 }

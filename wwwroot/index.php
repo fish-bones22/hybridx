@@ -11,10 +11,38 @@
 </head>
 <body> 
     <script>
-        var data = $.getJSON("/app/config.json");
-        var assets = $.getJSON("/app/assets.json");
+        var data;
+        var assets;
+        var globalGame;
+        var sceneContext;
+
+        $.ajax({ 
+            url: "/app/config.json", 
+            dataType: 'json', 
+            data: data, 
+            async: false, 
+            success: function(json){ 
+                data = json;
+            } 
+        });
+        $.ajax({ 
+            url: "/app/assets.json", 
+            dataType: 'json', 
+            data: data, 
+            async: false, 
+            success: function(json){ 
+                assets = json;
+            } 
+        });
+
     </script>
+    <script src="/app/GamePool/PhaserObject.js"></script>
+    <script src="/app/GamePool/Actors/Player.js"></script>
+    <script src="/app/GamePool/Scenes/DefaultScene.js"></script>
+
     <script src="/app/utilities.js"></script>
+    
+
     <script src="/app/app.js"></script>
 </body>
 </html>

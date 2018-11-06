@@ -3,6 +3,24 @@
         "key": "player",
         "path": "/assets/sprites/test-sprite-sheet.png",
         "width": 32,
-        "height": 32
+        "height": 32,
+        "x": 0,
+        "y": 0,
+        "anim": [
+            {
+                "key": "default",
+                "start": 0,
+                "end": 4,
+                "frameRate": 3,
+                "repeat": -1
+            },
+            {
+                "key": "duck",
+                "start": 90,
+                "end": 96,
+                "frameRate": 3,
+                "repeat": -1
+            }
+        ]
     }
 }
