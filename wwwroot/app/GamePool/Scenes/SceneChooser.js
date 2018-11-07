@@ -9,8 +9,8 @@ function SceneChooser() {
 
     this.preload = function ()
     {
-        this.button1 = new Button();
-        this.button2 = new Button();
+        this.button1 = new Button(assets.btnScene1);
+        this.button2 = new Button(assets.btnScene2);
         this.button1.preload();
         this.button2.preload();
     }
@@ -18,9 +18,9 @@ function SceneChooser() {
     this.create = function ()
     {
         this.button1.create();
-        this.button1.enterStage(400, 20);
+        this.button1.enterStage(300, 200);
         this.button2.create();
-        this.button2.enterStage(400, 20);
+        this.button2.enterStage(500, 200);
     }
 
 
@@ -31,4 +31,4 @@ function SceneChooser() {
 
 }
 
-DefaultScene.prototype = Object.create(Phaser.Scene.prototype);
+SceneChooser.prototype = Object.create(Phaser.Scene.prototype);

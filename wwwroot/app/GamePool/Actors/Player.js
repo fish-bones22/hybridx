@@ -1,7 +1,6 @@
-function Player() {
+function Player(asset) {
     
-    PhaserObject.call(this);
-    this.asset = assets.player;
+    PhaserObject.call(this, asset);
 
 }
 

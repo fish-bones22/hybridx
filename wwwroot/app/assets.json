@@ -23,8 +23,39 @@
             }
         ]
     },
-    "button": {
-        "key": "button",
+    "btnScene1": {
+        "key": "btnScene1",
+        "path": "/assets/sprites/btn-sprite-sheet.png",
+        "width": 166,
+        "height": 60,
+        "x": 0,
+        "y": 0,
+        "anim": [
+            {
+                "key": "default",
+                "start": 0,
+                "end": 0,
+                "frameRate": 1,
+                "repeat": -1
+            },
+            {
+                "key": "hover",
+                "start": 1,
+                "end": 1,
+                "frameRate": 1,
+                "repeat": -1
+            },
+            {
+                "key": "pressed",
+                "start": 2,
+                "end": 2,
+                "frameRate": 1,
+                "repeat": -1
+            }
+        ]
+    },
+    "btnScene2": {
+        "key": "btnScene2",
         "path": "/assets/sprites/btn-sprite-sheet.png",
         "width": 166,
         "height": 60,

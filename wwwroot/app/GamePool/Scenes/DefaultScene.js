@@ -8,7 +8,7 @@ function DefaultScene() {
 
     this.preload = function ()
     {
-        this.player = new Player();
+        this.player = new Player(assets.player);
         this.player.preload();
     }
 
